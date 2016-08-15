@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Boogaloo|Alegreya+Sans);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.main-container .page-header,
+.cupcakes-grid-home .views-field-title {
+    font-family: 'Lobster', cursive;
+}
+
+.cupcakes-grid-home .item {
+    margin: 0 0 20px 0;
+}
+
+.cupcakes-grid-home .item .item-wrapper {
+    background: #D8E697;
+    padding-bottom: 15px;
+}
+
+.cupcakes-grid-home .views-field-title {
+    border: 1px solid #D8E697;
+    background: #E4F0A8;
+    font-size: 1.2em;
+    padding: 15px;
+    text-align: center;
+}
+
+.node-cupcake .field-name-body {
+    margin-bottom: 20px;
+    color: #6A733E;
+}
+
+.node-cupcake .field-name-field-ingredients {
+    overflow: auto;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.node-cupcake .field-name-field-ingredients .field-item {
+    float: left;
+    margin: 0 5px;
+    padding: 11px;
+    border-bottom: 2px solid #C7A458;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.node-cupcake .field-name-field-ingredients .field-item a {
+    color: #C7A458
+}
+
+.node-cupcake .field-name-field-ingredients .field-item a:hover {
+    text-decoration: none;
+    color: #AD893B;
+    font-weight: bold;
+}
+
+.views-field-field-image img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.views-field-field-image img:hover {
+  -webkit-filter: brightness(110%);
+}
