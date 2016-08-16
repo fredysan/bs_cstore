@@ -2,9 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Boogaloo|Alegreya+Sans);
 
 body {
+    background: url(../images/header-bck.png) 0 0 repeat-x;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 2em;
     font-style: italic;
+}
+
+#navbar {
+    margin-top: 85px;
 }
 
 .main-container .page-header,
@@ -60,13 +65,15 @@ body {
 
 .views-field-field-image img {
   -webkit-filter: brightness(100%);
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+  -webkit-transition: all 500ms ease;
+     -moz-transition: all 500ms ease;
+       -o-transition: all 500ms ease;
+      -ms-transition: all 500ms ease;
+          transition: all 500ms ease;
+  outline: 1px solid #D8E697;
 }
  
 .views-field-field-image img:hover {
   -webkit-filter: brightness(110%);
+  outline: 1px solid #AD893B;
 }
